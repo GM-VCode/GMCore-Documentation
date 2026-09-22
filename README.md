@@ -1,6 +1,19 @@
-# GM Core
+<div align="center">
 
-### Gestão, segurança e governança para comunidades Discord
+# 🛡️ GM Core
+
+### Conforto, segurança e governança para comunidades Discord
+
+**Administração organizada · Proteção configurável · Decisões humanas**
+
+[Conhecer o sistema](#-por-que-o-gm-core-existe) ·
+[Ver recursos](#-recursos-principais) ·
+[Consultar comandos](docs/comandos/README.md) ·
+[Ler políticas](docs/politicas/README.md)
+
+</div>
+
+---
 
 O **GM Core** é um sistema completo de administração para comunidades Discord. Seu objetivo é ajudar
 equipes responsáveis a manter ambientes organizados, seguros e saudáveis, reduzindo abuso, spam,
@@ -16,7 +29,24 @@ controle de acesso e gestão da comunidade em uma única estrutura.
 > Tecnologia para apoiar comunidades melhores — com regras claras, registros verificáveis e decisões
 > humanas.
 
-## Por que o GM Core existe
+## 🧭 Comece por aqui
+
+| Quero conhecer... | Documento recomendado |
+|---|---|
+| O que o GM Core oferece | Continue nesta página e consulte os [recursos principais](#-recursos-principais) |
+| Como utilizar os comandos | [Manual de comandos](docs/comandos/README.md) |
+| Como os dados são tratados | [Privacidade e tratamento de dados](docs/politicas/PRIVACIDADE_E_DADOS.md) |
+| As proteções disponíveis | [Proteções e Anti-Raid](docs/politicas/PROTECOES_E_ANTI_RAID.md) |
+| Como funciona o controle de acesso | [Política de controle de acesso](docs/politicas/CONTROLE_DE_ACESSO.md) |
+| Regras de auditoria e registros | [Auditoria da comunidade](docs/politicas/AUDITORIA_DA_COMUNIDADE.md) |
+| Todas as políticas do produto | [Central de políticas](docs/politicas/README.md) |
+
+> 💡 **Dica:** comece pelos recursos desta página. Depois, abra o manual do comando desejado e a
+> política correspondente para conhecer acesso, finalidade, dados utilizados e limitações.
+
+---
+
+## 🎯 Por que o GM Core existe
 
 Administrar uma comunidade envolve muito mais do que banir ou silenciar usuários. É necessário saber
 quem pode executar cada ação, preservar registros importantes, organizar atendimentos, responder a
@@ -32,9 +62,9 @@ O GM Core foi criado para oferecer essa base:
 - delegar funções sem entregar acesso irrestrito;
 - manter cada comunidade no controle de suas próprias regras.
 
-## Pilares do sistema
+## 🧱 Pilares do sistema
 
-### Segurança preventiva
+### 🛡️ Segurança preventiva
 
 As proteções do GM Core podem identificar contas muito recentes, palavras negadas, links não
 autorizados, mensagens repetidas, excesso de menções, bots não permitidos, picos de entrada e abuso
@@ -46,7 +76,7 @@ limites adequados à realidade de sua comunidade.
 Em situações graves, o modo de emergência permite proteger canais previamente definidos, aplicar
 modo lento e acionar recursos nativos de segurança do Discord quando disponíveis.
 
-### Moderação responsável
+### ⚖️ Moderação responsável
 
 Banimentos, expulsões e silenciamentos passam por verificações de acesso, hierarquia e permissões do
 Discord. Motivo, duração e informações essenciais da ocorrência podem ser registrados para permitir
@@ -55,7 +85,7 @@ revisão posterior.
 O histórico oferece contexto, não uma sentença automática. O GM Core não atribui pontuação de risco e
 não obriga uma comunidade a repetir a decisão tomada por outra. A análise final continua sendo humana.
 
-### Governança e controle de acesso
+### 🔐 Governança e controle de acesso
 
 O sistema possui uma camada própria de permissões por servidor. O dono pode autorizar uma pessoa ou
 cargo somente para a função necessária, como tickets, embeds, VIP, Anti-Link ou auditoria, sem
@@ -64,7 +94,7 @@ entregar acesso completo ao bot.
 As permissões internas complementam — e nunca ignoram — a hierarquia, os cargos e as restrições do
 Discord. Alterações de acesso também podem ser auditadas.
 
-### Auditoria e transparência
+### 🧾 Auditoria e transparência
 
 O GM Core acompanha eventos administrativos relevantes, como alterações em canais e cargos,
 moderação de membros, edição ou exclusão de mensagens e movimentações de voz, conforme as permissões
@@ -74,7 +104,7 @@ Os registros são direcionados a canais protegidos e possuem retenção controla
 para esclarecer acontecimentos e apoiar a equipe responsável, não para vigiar indiscriminadamente os
 membros.
 
-### Atendimento organizado
+### 🎫 Atendimento organizado
 
 O sistema de tickets cria um espaço privado entre o membro e a equipe de suporte. Um atendente pode
 assumir o caso, incluir participantes e criar uma call privada somente quando necessário.
@@ -82,7 +112,7 @@ assumir o caso, incluir participantes e criar uma call privada somente quando ne
 Ao finalizar, o GM Core produz um transcript HTML e o envia ao canal de auditoria configurado. Isso
 preserva o registro do atendimento sem manter indefinidamente toda a conversa no banco do bot.
 
-### Comunicação e identidade
+### 🎨 Comunicação e identidade
 
 O Gerador de Embeds permite criar conteúdo visual, salvar modelos, manter versões e publicar somente
 em canais autorizados. A divulgação por DM possui controle de acesso, confirmação, fila e respeito às
@@ -92,9 +122,9 @@ O sistema VIP administra cargos temporários, calls particulares, tags pessoais 
 Core cuida da estrutura técnica; pagamentos e regras comerciais permanecem sob responsabilidade da
 comunidade.
 
-## Recursos principais
+## ✨ Recursos principais
 
-| Área | Recursos |
+| Área | Recursos disponíveis |
 |---|---|
 | Moderação | Ban, unban, kick, timeout de chat, mute de voz e remoção de mute |
 | Proteção | Contas recentes, palavras negadas, Anti-Link, Anti-Spam, Anti-Nuke e bots autorizados |
@@ -107,7 +137,9 @@ comunidade.
 | Comunidade | Cargos VIP, calls privadas, tags e acompanhantes |
 | Continuidade | Comandos essenciais de contingência durante falhas do serviço principal |
 
-## Privacidade por finalidade
+---
+
+## 🔏 Privacidade por finalidade
 
 O GM Core utiliza identificadores fornecidos pelo Discord e informações necessárias ao funcionamento
 dos recursos ativados. O sistema não solicita senhas, tokens de conta, documentos civis ou dados
@@ -123,7 +155,7 @@ anexos, denunciantes ou a identidade de quem aplicou a medida. Esse recurso est�
 desenvolvimento, podendo receber ajustes de governança e cobertura antes de ser considerado
 plenamente estabilizado.
 
-## Princípios de governança
+## 🏛️ Princípios de governança
 
 O desenvolvimento e a operação do GM Core seguem princípios simples:
 
@@ -135,7 +167,7 @@ O desenvolvimento e a operação do GM Core seguem princípios simples:
 6. **Separação:** dados, permissões e configurações de uma comunidade não liberam acesso em outra.
 7. **Respeito à plataforma:** nenhuma permissão interna ultrapassa os limites da API do Discord.
 
-## Responsabilidade compartilhada
+## 🤝 Responsabilidade compartilhada
 
 O GM Core fornece infraestrutura, controles e registros. A comunidade continua responsável por suas
 regras, pela escolha de pessoas autorizadas, pela proporcionalidade das punições e pelo conteúdo que
@@ -145,7 +177,7 @@ O bot não substitui os mecanismos oficiais de denúncia do Discord, serviços d
 investigações formais ou orientação jurídica. Situações graves devem ser encaminhadas pelos meios
 apropriados.
 
-## Desenvolvimento contínuo
+## 🚧 Desenvolvimento contínuo
 
 O GM Core evolui de forma modular. Recursos estáveis são documentados conforme o comportamento real;
 recursos parciais ou experimentais são identificados antes de serem apresentados como concluídos.
@@ -154,7 +186,9 @@ O **Joker IA** é opcional e permanece em desenvolvimento. O **Anti-Nuke** já i
 operacionais, mas nasce desativado e depende de configuração exclusiva do dono real do servidor.
 Essas distinções evitam que propostas futuras sejam confundidas com garantias do sistema atual.
 
-## Compromisso
+---
+
+## 💙 Compromisso
 
 O GM Core busca tornar a gestão de comunidades mais previsível, segura e transparente. Seu papel não
 é controlar as pessoas, mas oferecer às equipes responsáveis ferramentas para prevenir abuso,
@@ -163,8 +197,13 @@ com mais confiança.
 
 ---
 
-**GM Core** — gestão e governança para comunidades que levam segurança, organização e convivência a
-sério.
+<div align="center">
+
+### GM Core
+
+**Gestão e governança para comunidades que levam segurança, organização e convivência a sério.**
+
+</div>
 
 Consulte as [políticas funcionais e de dados](docs/politicas/README.md) para conhecer em detalhes a
 finalidade, o acesso, a retenção e os limites de cada sistema.
