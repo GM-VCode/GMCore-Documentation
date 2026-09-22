@@ -8,6 +8,7 @@
 
 [Conhecer o sistema](#-por-que-o-gm-core-existe) ·
 [Ver recursos](#-recursos-principais) ·
+[Comparar soluções](docs/apresentacao/COMPARATIVO_DE_MERCADO.md) ·
 [Consultar comandos](docs/comandos/README.md) ·
 [Ler políticas](docs/politicas/README.md)
 
@@ -34,6 +35,7 @@ controle de acesso e gestão da comunidade em uma única estrutura.
 | Quero conhecer... | Documento recomendado |
 |---|---|
 | O que o GM Core oferece | Continue nesta página e consulte os [recursos principais](#-recursos-principais) |
+| Como ele se compara a outras soluções | [Comparativo de mercado](docs/apresentacao/COMPARATIVO_DE_MERCADO.md) |
 | Como utilizar os comandos | [Manual de comandos](docs/comandos/README.md) |
 | Como os dados são tratados | [Privacidade e tratamento de dados](docs/politicas/PRIVACIDADE_E_DADOS.md) |
 | As proteções disponíveis | [Proteções e Anti-Raid](docs/politicas/PROTECOES_E_ANTI_RAID.md) |
