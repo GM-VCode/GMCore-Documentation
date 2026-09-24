@@ -15,6 +15,7 @@ continuam em [`docs/comandos`](../comandos/README.md).
 
 | Documento | Escopo | Estado |
 |---|---|---|
+| [Termos de Serviço](TERMOS_DE_SERVICO.md) | Regras gerais de uso do GM Core | Operacional |
 | [Privacidade e tratamento de dados](PRIVACIDADE_E_DADOS.md) | Visão geral dos dados usados pelo bot | Operacional |
 | [Controle de acesso](CONTROLE_DE_ACESSO.md) | ACL, permissões nativas e equipe técnica | Operacional |
 | [Moderação e punições](MODERACAO_E_PUNICOES.md) | Ban, kick, silenciamentos e registros | Operacional |
