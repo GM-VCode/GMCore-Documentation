@@ -56,3 +56,12 @@ O GM Core depende da API e das permissões concedidas pelo Discord. Falhas de ac
 do banco ou remoção de canais podem limitar registros. O bot não vende dados, não produz perfil
 publicitário e não usa o conteúdo das comunidades para conceder punições automáticas fora das regras
 explicitamente ativadas pelo servidor.
+
+## Contato e suporte
+
+Para dúvidas, solicitações ou relatos sobre privacidade e dados, entre em contato pelos canais
+oficiais do GM Core:
+
+- **Suporte:** [gmcore.help@outlook.com](mailto:gmcore.help@outlook.com)
+- **Parcerias:** [gmcore.team@outlook.com](mailto:gmcore.team@outlook.com)
+- **Servidor de suporte:** [discord.gg/wrTMNUUwFa](https://discord.gg/wrTMNUUwFa)

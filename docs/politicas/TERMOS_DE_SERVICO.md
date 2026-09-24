@@ -74,7 +74,11 @@ O uso das ferramentas, a configuração das permissões e as decisões administr
 
 ## 10. Contato
 
-Para dúvidas, solicitações ou relatos relacionados ao serviço, utilize o canal oficial de suporte disponibilizado pela equipe do GM Core.
+Para dúvidas, solicitações ou relatos relacionados ao serviço, utilize os canais oficiais do GM Core:
+
+- **Suporte:** [gmcore.help@outlook.com](mailto:gmcore.help@outlook.com)
+- **Parcerias:** [gmcore.team@outlook.com](mailto:gmcore.team@outlook.com)
+- **Servidor de suporte:** [discord.gg/wrTMNUUwFa](https://discord.gg/wrTMNUUwFa)
 
 ## 11. Relação com outras regras
 

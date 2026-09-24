@@ -14,6 +14,12 @@
 
 </div>
 
+## 🛡️ Contato e suporte
+
+🛡️ **Suporte:** [gmcore.help@outlook.com](mailto:gmcore.help@outlook.com)<br>
+🤝 **Parcerias:** [gmcore.team@outlook.com](mailto:gmcore.team@outlook.com)<br>
+💬 **Servidor de suporte:** [discord.gg/wrTMNUUwFa](https://discord.gg/wrTMNUUwFa)
+
 ---
 
 O **GM Core** é um sistema completo de administração para comunidades Discord. Seu objetivo é ajudar
