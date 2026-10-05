@@ -8,7 +8,7 @@ membros não-bot do servidor.
 ## Funcionamento
 
 A operação exige acesso próprio e confirmação do conteúdo. O envio ocorre gradualmente, respeita
-limites e respostas da API do Discord e mantém um checkpoint para continuar depois de interrupções.
+limites do Discord e pode continuar após uma interrupção.
 Bots são ignorados. Ao terminar, o solicitante recebe o resultado por DM e a ação entra no registro
 administrativo.
 

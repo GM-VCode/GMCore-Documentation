@@ -7,7 +7,7 @@ expor o alerta em canais públicos.
 
 ## Funcionamento
 
-Cada usuário configura suas preferências por servidor. É possível ativar categorias de Anti-Raid,
+Nos planos compatíveis, cada usuário configura suas preferências por servidor. É possível ativar categorias de Anti-Raid,
 bots, emergência e punições, definir níveis por categoria, ajustar o detector de punições em massa e
 estabelecer horário silencioso. As preferências começam desativadas.
 
@@ -16,6 +16,8 @@ incidente não recebe a notificação sobre a própria ação.
 
 O painel permite testar a DM e remover mensagens enviadas por esta instância do bot. A limpeza não
 apaga mensagens de outros usuários ou aplicações.
+
+O monitoramento da staff e suas notificações próprias estão disponíveis no Premium e Pro.
 
 ## Dados utilizados e limites
 

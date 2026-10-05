@@ -1,8 +1,8 @@
 # Políticas funcionais do GM Core
 
 Esta pasta reúne documentos públicos de governança das funções sensíveis do GM Core. Eles explicam
-finalidade, funcionamento, dados utilizados, acesso e limites. Detalhes de operação dos comandos
-continuam em [`docs/comandos`](../comandos/README.md).
+finalidade, funcionamento, dados utilizados, acesso e limites. Veja também os
+[planos e recursos](../PLANOS.md) e o [manual de comandos](../comandos/README.md).
 
 ## Estado dos recursos
 
@@ -22,7 +22,7 @@ continuam em [`docs/comandos`](../comandos/README.md).
 | [Histórico entre comunidades](HISTORICO_MODERACAO_ENTRE_COMUNIDADES.md) | Consulta restrita de ocorrências por ID | Em crescimento e desenvolvimento |
 | [Auditoria da comunidade](AUDITORIA_DA_COMUNIDADE.md) | Eventos, mensagens, voz e retenção | Operacional |
 | [Proteções e Anti-Raid](PROTECOES_E_ANTI_RAID.md) | Contas, conteúdo, links, spam, bots, Anti-Nuke e emergência | Operacional |
-| [Tickets de suporte](TICKETS_DE_SUPORTE.md) | Atendimento, participantes e transcript | Operacional |
+| [Tickets de suporte](TICKETS_DE_SUPORTE.md) | Atendimento, participantes e relatório conforme plano | Operacional |
 | [Notificações privadas](NOTIFICACOES_PRIVADAS.md) | Alertas administrativos por DM | Operacional |
 | [Divulgação por mensagem direta](DIVULGACAO_POR_DM.md) | Campanhas administrativas por DM | Operacional |
 | [Sistema VIP](SISTEMA_VIP.md) | Assinaturas, cargos, calls e acompanhantes | Operacional |

@@ -3,7 +3,8 @@
 ## Finalidade
 
 O controle de acesso restringe operações sensíveis e permite que o dono delegue apenas as funções
-necessárias. O GM Core combina permissões nativas do Discord com uma ACL própria por servidor.
+necessárias. O servidor precisa ter um plano ativo, inclusive o Gratuito. O plano disponibiliza
+as ferramentas; a autorização do usuário e as permissões nativas do Discord determinam o acesso.
 
 ## Funcionamento
 
@@ -11,21 +12,19 @@ A ACL associa uma capacidade a um usuário ou cargo dentro de um servidor. A aut
 dono, exceções técnicas documentadas, capacidades diretas e capacidades herdadas dos cargos. A ação
 ainda depende da hierarquia, do acesso aos canais e das permissões do próprio bot.
 
-O `/config` permite conceder, remover e listar acessos. A capacidade que administra a própria ACL é
-concedida somente a usuários, não a cargos. Se o banco não puder ser consultado, o acesso interno é
-negado por segurança.
+O `/config` permite conceder, remover e listar acessos. A permissão unitária para editar a ACL é
+concedida a usuários; `PROPRIETARIO` é uma delegação ampla de co-dono e também permite administrar
+o acesso dentro do servidor. Nenhuma dessas permissões libera benefícios fora do plano.
 
 ## Dados registrados
 
-São mantidos o servidor, o alvo, o tipo do alvo, as capacidades, a data e a identidade de quem fez a
-alteração. Nomes servem para exibição; IDs são a referência permanente. As mudanças entram na
-auditoria administrativa.
+As concessões e alterações de acesso ficam vinculadas ao servidor e podem ser auditadas.
 
 ## Equipe técnica
 
-IDs oficiais configurados para suporte técnico podem possuir autoridade global no bot. Essa exceção
-serve à manutenção e não altera a hierarquia do Discord. Os IDs devem permanecer restritos, e ações
-administrativas continuam sujeitas aos registros disponíveis.
+A equipe técnica oficial possui acesso para manutenção e testes dentro das ferramentas disponíveis
+no plano do servidor. A equipe comercial recebe somente as funções de gestão de planos; ela não
+herda autoridade de moderação ou configuração da comunidade.
 
 ## Limites
 

@@ -10,8 +10,9 @@ Centraliza as ferramentas administrativas de uso diário.
 
 ## Acesso
 
-O dono, um Administrador nativo, a equipe técnica, quem possui `MODERATION` ou a capacidade
-unitária da opção podem abrir o painel correspondente.
+O dono, um Administrador nativo, o co-dono com `PROPRIETARIO`, a equipe técnica, quem possui
+`MODERATION` ou a capacidade unitária da opção podem abrir o painel correspondente, desde que o
+plano inclua a ferramenta.
 
 ## Opções
 
@@ -22,20 +23,23 @@ unitária da opção podem abrir o painel correspondente.
 | Minhas notificações | Preferências privadas de alertas por servidor | `CONSULTA` |
 | Gerador de embeds | Criação, modelos, versões e publicação | `EMBED_MANAGE` |
 | Limpar mensagens | Exclusão controlada de mensagens recentes ou antigas | `CLEAN_MESSAGES` |
+| Consulta XP Staff | Busca por ID e mostra XP e horas válidas nas últimas 24 horas e 7 dias | `STAFF_XP_QUERY` |
 
 ## Gerador de embeds
 
-A entrada apresenta quatro ações:
+A entrada apresenta três ações:
 
 - **Criar:** começa um rascunho visual;
 - **Editar:** abre por chave do modelo, ID ou link de publicação registrada;
-- **Modelos:** lista os modelos ativos do servidor;
-- **Lista:** mostra as publicações registradas que ainda existem.
+- **Lista:** mostra os modelos e IDs salvos do servidor.
 
 O editor configura mensagem comum, título, descrição, aparência, autor, rodapé, até 25 campos e
 botões de link. Também oferece prévia, cópia, versões, arquivamento e publicação por ID do canal.
 
-Cada servidor pode manter até 25 modelos ativos. São aceitos até cinco botões de link, ou quatro
+O formato V1 está disponível no Essencial e Pro; o V2, no Premium e Pro. Os limites de modelos
+salvos e publicados são 15 no Essencial e 25 no Premium; o Pro oferece capacidade ampliada,
+sujeita a uso responsável e suporte caso seja necessário ampliar. São aceitos até
+cinco botões de link, ou quatro
 quando existe um botão de anexo. Menções ficam desativadas na publicação. O bot só atualiza
 mensagens criadas e registradas pelo próprio GM Core.
 

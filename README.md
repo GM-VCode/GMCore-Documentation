@@ -9,6 +9,7 @@
 [Conhecer o sistema](#-por-que-o-gm-core-existe) ·
 [Ver recursos](#-recursos-principais) ·
 [Comparar soluções](docs/apresentacao/COMPARATIVO_DE_MERCADO.md) ·
+[Ver planos](docs/PLANOS.md) ·
 [Consultar comandos](docs/comandos/README.md) ·
 [Ler políticas](docs/politicas/README.md)
 
@@ -43,6 +44,7 @@ controle de acesso e gestão da comunidade em uma única estrutura.
 | O que o GM Core oferece | Continue nesta página e consulte os [recursos principais](#-recursos-principais) |
 | Como ele se compara a outras soluções | [Comparativo de mercado](docs/apresentacao/COMPARATIVO_DE_MERCADO.md) |
 | Como utilizar os comandos | [Manual de comandos](docs/comandos/README.md) |
+| Qual plano inclui cada recurso | [Planos do GM Core](docs/PLANOS.md) |
 | Como os dados são tratados | [Privacidade e tratamento de dados](docs/politicas/PRIVACIDADE_E_DADOS.md) |
 | As proteções disponíveis | [Proteções e Anti-Raid](docs/politicas/PROTECOES_E_ANTI_RAID.md) |
 | Como funciona o controle de acesso | [Política de controle de acesso](docs/politicas/CONTROLE_DE_ACESSO.md) |
@@ -78,8 +80,8 @@ As proteções do GM Core podem identificar contas muito recentes, palavras nega
 autorizados, mensagens repetidas, excesso de menções, bots não permitidos, picos de entrada e abuso
 repetido de ações administrativas perigosas.
 
-Cada proteção começa desativada. O responsável escolhe quais recursos deseja utilizar e configura os
-limites adequados à realidade de sua comunidade.
+Cada proteção começa desativada. O responsável escolhe quais recursos deseja utilizar; as opções
+de personalização variam conforme o plano ativo do servidor.
 
 Em situações graves, o modo de emergência permite proteger canais previamente definidos, aplicar
 modo lento e acionar recursos nativos de segurança do Discord quando disponíveis.
@@ -117,13 +119,13 @@ membros.
 O sistema de tickets cria um espaço privado entre o membro e a equipe de suporte. Um atendente pode
 assumir o caso, incluir participantes e criar uma call privada somente quando necessário.
 
-Ao finalizar, o GM Core produz um transcript HTML e o envia ao canal de auditoria configurado. Isso
-preserva o registro do atendimento sem manter indefinidamente toda a conversa no banco do bot.
+No Premium e Pro, o encerramento também pode gerar um relatório HTML no canal de tickets
+configurado. O atendimento Essencial funciona sem esse relatório.
 
 ### 🎨 Comunicação e identidade
 
 O Gerador de Embeds permite criar conteúdo visual, salvar modelos, manter versões e publicar somente
-em canais autorizados. A divulgação por DM possui controle de acesso, confirmação, fila e respeito às
+em canais autorizados. A divulgação por DM possui controle de acesso, confirmação e respeito às
 limitações impostas pelo Discord.
 
 O sistema VIP administra cargos temporários, calls particulares, tags pessoais e acompanhantes. O GM
@@ -139,10 +141,12 @@ comunidade.
 | Resposta a incidentes | Monitoramento administrativo e modo de emergência |
 | Auditoria | Eventos do servidor, histórico de membros, mensagens e voz |
 | Governança | Permissões internas por usuário ou cargo e centrais administrativas |
-| Atendimento | Tickets privados, atendente, call sob demanda e transcript |
+| Atendimento | Tickets privados, atendente e call sob demanda; relatório conforme o plano |
 | Conteúdo | Gerador de embeds, modelos, versões e publicações registradas |
 | Comunicação | Notificações administrativas e divulgação por DM |
 | Comunidade | Cargos VIP, calls privadas, tags e acompanhantes |
+| Progressão | XP por voz para membros e, nos planos compatíveis, para a staff |
+| Backup | Estrutura e conteúdo recuperáveis conforme o plano |
 | Continuidade | Comandos essenciais de contingência durante falhas do serviço principal |
 
 ---
@@ -150,8 +154,9 @@ comunidade.
 ## 🔏 Privacidade por finalidade
 
 O GM Core utiliza identificadores fornecidos pelo Discord e informações necessárias ao funcionamento
-dos recursos ativados. O sistema não solicita senhas, tokens de conta, documentos civis ou dados
-bancários.
+dos recursos ativados. O sistema não solicita senhas ou tokens de conta. Na ativação de planos,
+um comprovante enviado pelo responsável pode conter dados pessoais de pagamento; envie somente
+o necessário e evite informações sensíveis adicionais.
 
 Os dados são separados por servidor sempre que a função assim exige. Consultas e painéis sensíveis
 ficam restritos a pessoas autorizadas. Diferentes categorias de registro possuem prazos de retenção
@@ -190,8 +195,8 @@ apropriados.
 O GM Core evolui de forma modular. Recursos estáveis são documentados conforme o comportamento real;
 recursos parciais ou experimentais são identificados antes de serem apresentados como concluídos.
 
-O **Joker IA** é opcional e permanece em desenvolvimento. O **Anti-Nuke** já integra as proteções
-operacionais, mas nasce desativado e depende de configuração exclusiva do dono real do servidor.
+O **Joker IA** é opcional e permanece em desenvolvimento. O **Anti-Nuke** integra os planos a partir
+do Essencial, nasce desativado e depende de autorização para sua configuração.
 Essas distinções evitam que propostas futuras sejam confundidas com garantias do sistema atual.
 
 ---

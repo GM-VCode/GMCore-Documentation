@@ -4,7 +4,7 @@ Esta área explica os comandos públicos do GM Core, quem pode utilizá-los e o 
 
 ## Atendimento
 
-- [`/ticket suporte`](ticket-suporte.md): configura, publica e administra o atendimento privado.
+- [`/ticket`](ticket-suporte.md): configura suporte e sorteios conforme o plano.
 
 ## Administração e configuração
 
@@ -25,6 +25,10 @@ Esta área explica os comandos públicos do GM Core, quem pode utilizá-los e o 
 
 - [`/help`](help.md): abre a central de ajuda e o diagnóstico público.
 - [`/vip`](vip.md): abre os recursos pessoais de uma assinatura VIP.
+- [`/xp`](xp.md): consulta XP e tempo válido em voz.
+
+Um plano precisa estar ativo no servidor, inclusive o Gratuito. O plano libera as ferramentas;
+as permissões do GM Core e do Discord determinam quem pode operá-las.
 
 ## Segurança de acesso
 

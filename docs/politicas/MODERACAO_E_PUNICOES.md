@@ -12,9 +12,8 @@ a posição do cargo do bot e as permissões nativas necessárias. O timeout de 
 nativo do Discord e aceita duração entre 5 segundos e 28 dias. Registros persistentes permitem
 reaplicar um timeout ainda válido quando o membro retorna ao servidor.
 
-Os comandos de contingência por prefixo oferecem somente ações essenciais quando o MongoDB ou os
-slash commands estão indisponíveis. Eles usam um armazenamento SQLite mínimo e não substituem a
-auditoria completa.
+Comandos de contingência podem oferecer apenas ações essenciais em determinadas falhas. Eles não
+substituem os comandos normais nem a auditoria completa.
 
 ## Registros
 

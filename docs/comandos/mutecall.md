@@ -14,10 +14,10 @@ Exige `MUTECALL`, autoridade do dono ou equipe técnica. O tempo precisa ser mai
 
 - Se o membro já estiver em voz, o silenciamento é aplicado imediatamente.
 - Se estiver fora de voz, o registro permanece ativo e o bot aplica quando ele entrar.
-- O vencimento é salvo no MongoDB e verificado periodicamente pelo serviço de mutes.
+- O vencimento é acompanhado pelo bot para retirar o silenciamento no prazo.
 - Ao terminar, o bot remove o efeito e encerra o registro ativo.
 
-O SQLite é usado apenas pelos comandos `$` de contingência; o slash command opera pela persistência
-principal no MongoDB.
+Em indisponibilidade do serviço principal, os comandos de contingência oferecem apenas ações
+essenciais; eles não substituem o funcionamento completo dos comandos do Discord.
 
 Administradores protegidos não podem ser silenciados. Motivo, membro e duração são obrigatórios.

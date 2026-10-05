@@ -10,10 +10,10 @@ de contexto e responsabilização administrativa.
 Conforme os canais configurados e os eventos entregues pelo Discord, o sistema trata alterações de
 servidor, canais, cargos, membros, mensagens, convites, webhooks, emojis, stickers, voz, eventos,
 integrações, AutoMod e outras entradas do Audit Log. Também registra entradas e saídas de membros,
-edições ou exclusões de mensagens e sessões de voz observadas pelo Gateway.
+edições ou exclusões de mensagens e sessões de voz informadas pelo Discord.
 
-O conteúdo de uma mensagem pode ser mantido em cache para que uma edição ou exclusão seja explicada.
-O sistema deduplica eventos e tenta correlacionar a ação com o executor informado pelo Audit Log.
+Quando disponível, o registro de edição ou exclusão pode incluir o conteúdo anterior da mensagem e
+o executor informado pelo Discord. Alguns eventos podem chegar incompletos ou sem identificação.
 
 ## Acesso e destino
 
@@ -23,14 +23,12 @@ forma privada. Canais ausentes podem direcionar o evento ao canal geral de fallb
 
 ## Retenção e resiliência
 
-Os registros principais persistentes expiram em 45 dias. Coleções auxiliares podem expirar em 7 dias,
-o histórico consolidado de membro após 60 dias sem atualização e o cache persistente de mensagens em
-90 dias. Em memória, existe um cache circular limitado por canal e uma fila limitada; em saturação,
-o item mais antigo pode ser descartado.
+Os registros têm prazos de retenção diferentes conforme a finalidade, descritos na
+[política de privacidade](PRIVACIDADE_E_DADOS.md). Eventos indisponíveis, falta de permissões ou
+limitações do Discord podem deixar o registro incompleto.
 
-Falha no MongoDB não deve derrubar o listener nem impedir, quando possível, o envio do registro ao
-Discord. Mesmo assim, permissões insuficientes, eventos não entregues pelo Gateway e mensagens não
-presentes no cache podem produzir registros incompletos.
+Uma indisponibilidade do serviço pode limitar a consulta ou o envio dos registros. Não se deve
+interpretar a ausência de um evento como prova de que ele não ocorreu.
 
 ## Separação do histórico entre comunidades
 

@@ -5,10 +5,11 @@ Expulsa um membro sem impedir que ele volte por um novo convite.
 ## Uso e acesso
 
 ```text
-/kick member:<ID-ou-menção> reason:<motivo>
+/kick member:<ID> reason:<motivo>
 ```
 
-Exige `KICK`, autoridade do dono ou equipe técnica. O bot aceita ID ou menção no campo `member`.
+Exige `KICK`, autoridade do dono, co-dono delegado ou equipe técnica. Informe o ID numérico no
+campo `member`.
 
 ## Funcionamento
 
@@ -18,4 +19,3 @@ histórico e na auditoria.
 
 O bot recusa administradores protegidos, alvos inexistentes e situações em que sua própria
 permissão ou posição de cargo é insuficiente.
-

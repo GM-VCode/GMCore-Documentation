@@ -15,13 +15,16 @@ Conforme os módulos ativados, o bot pode tratar:
 - conteúdo de mensagens necessário à auditoria de edição ou exclusão;
 - entrada, saída e movimentação em canais de voz;
 - configurações, permissões internas e preferências de notificação;
-- conteúdo de tickets, participantes e transcript produzido no encerramento;
+- conteúdo de tickets, participantes e, nos planos com relatório, transcript de encerramento;
 - modelos e publicações criados no Gerador de Embeds;
 - estruturas e vínculos do sistema VIP;
-- progresso temporário de campanhas por DM.
+- progresso temporário de campanhas por DM;
+- tempo válido em voz, XP e progresso de membros e da staff nos servidores que usam esses recursos;
+- informações necessárias à ativação, duração e gestão do plano do servidor.
 
-O bot não solicita senha, token de conta, dados bancários ou documento civil. O ID do Discord é
-usado como identificador técnico porque nomes e apelidos podem mudar.
+O bot não solicita senha nem token de conta. Comprovantes enviados para ativação de planos podem
+conter dados pessoais ou de pagamento; envie apenas o necessário e não inclua informações
+sensíveis adicionais. O ID do Discord identifica contas mesmo quando nomes e apelidos mudam.
 
 ## Isolamento e acesso
 
@@ -40,14 +43,17 @@ Não existe um prazo único para todos os dados:
 - eventos principais de auditoria possuem expiração automática de 45 dias;
 - algumas coleções auxiliares de logs expiram em 7 dias;
 - o histórico consolidado de auditoria de membro expira após 60 dias sem atualização;
-- cache persistente de mensagens possui expiração de 90 dias;
+- dados usados para contextualizar edições e exclusões de mensagens podem ser mantidos por até
+  90 dias;
 - tickets encerrados e seus resumos diários expiram em 7 dias;
 - eventos funcionais de VIP expiram em 2 dias;
 - configurações, permissões, punições vigentes, modelos de embed e estruturas VIP permanecem enquanto
-  forem necessários ao funcionamento ou até remoção administrativa.
+  forem necessários ao funcionamento ou até remoção administrativa. Após período prolongado sem
+  plano ativo, as configurações do servidor podem ser redefinidas conforme os termos do serviço;
+  registros necessários ao histórico entre comunidades podem permanecer.
 
-A exclusão por TTL é executada pelo MongoDB e pode ocorrer pouco depois do instante exato de
-vencimento. O transcript enviado ao canal de auditoria passa a ser uma mensagem do próprio servidor e
+A exclusão automática pode ocorrer pouco depois do prazo previsto. O transcript enviado ao canal
+de auditoria passa a ser uma mensagem do próprio servidor e
 segue a retenção administrada pela comunidade no Discord.
 
 ## Limites

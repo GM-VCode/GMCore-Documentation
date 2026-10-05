@@ -8,8 +8,9 @@ Abre a central privada de ajuda do GM Core dentro do Discord.
 /help
 ```
 
-Todos os membros podem executar. A resposta é efêmera e somente o solicitante pode usar seus
-componentes.
+Membros de servidores com plano ativo podem executar. Mesmo o Gratuito precisa ser ativado pela
+equipe GM. Sem plano, a equipe comercial pode abrir a ajuda para acessar o Setup. A resposta é
+privada e somente o solicitante pode usar seus componentes.
 
 ## Funcionamento
 
@@ -17,18 +18,17 @@ componentes.
 2. O usuário escolhe um comando.
 3. O container passa a explicar acesso, funcionamento, limites e boas práticas.
 4. **Anterior** e **Próxima** navegam pelas páginas daquele comando.
-5. **Setup** abre o diagnóstico de conexão e saúde do bot.
+5. **Setup** apresenta o estado do bot e as opções disponíveis ao solicitante.
 
 O catálogo cobre as centrais `/proprietario` e `/moderacao`, o módulo independente
-`/ticket suporte`, as punições, `/config` e `/vip`. Dentro da central do proprietário, a ajuda
+`/ticket`, as punições, `/config`, `/vip` e `/xp`. Dentro da central do proprietário, a ajuda
 explica separadamente contas, palavras, Anti-Link, Anti-Spam, Anti-Nuke e Bot-Moderação.
 
 As páginas de segurança seguem o estado real do projeto: todas as proteções começam desativadas,
-cada módulo informa sua capacidade ACL e o Anti-Nuke identifica que somente o dono real pode
-configurá-lo.
+cada módulo informa seu acesso e o Anti-Nuke exige plano Essencial ou superior e autoridade
+compatível, inclusive co-dono delegado.
 
-O botão **Setup** aparece para todos. Membros comuns recebem a visão segura; a equipe técnica recebe
-os controles adicionais já protegidos pelo sistema.
+O botão **Setup** apresenta uma visão segura aos membros e controles próprios às equipes autorizadas.
 
 ## Observações
 

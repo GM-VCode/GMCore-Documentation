@@ -6,7 +6,7 @@ Estes Termos de Serviço regulam o uso do GM Core, um bot e conjunto de recursos
 
 ## 1. Serviço
 
-O GM Core oferece recursos de moderação, proteção, auditoria, controle de acesso, atendimento por tickets, comunicação e gestão de comunidade. Os recursos disponíveis dependem das permissões concedidas ao bot, das configurações do servidor e das limitações técnicas do Discord.
+O GM Core oferece recursos de moderação, proteção, auditoria, controle de acesso, atendimento por tickets, comunicação e gestão de comunidade. O servidor precisa ter um plano ativado, inclusive para usar o Gratuito. Os recursos disponíveis também dependem das permissões concedidas ao bot, das configurações do servidor e das limitações técnicas do Discord.
 
 O serviço é complementar às ferramentas do Discord. Ele não substitui as regras da plataforma, os mecanismos oficiais de denúncia, serviços de emergência, investigações formais ou orientação jurídica.
 
@@ -14,7 +14,7 @@ O serviço é complementar às ferramentas do Discord. Ele não substitui as reg
 
 O uso do GM Core deve respeitar a idade mínima, os Termos de Serviço, as Diretrizes da Comunidade e as demais regras aplicáveis do Discord. Cada pessoa é responsável pela segurança de sua própria conta e pelas ações feitas por ela.
 
-O GM Core não solicita senha, token de conta, dados bancários ou documentos civis. Não compartilhe credenciais do Discord com o bot, com a equipe do projeto ou com terceiros.
+O GM Core não solicita senha ou token de conta. Um comprovante de plano pode conter dados pessoais de pagamento; compartilhe apenas o necessário. Nunca compartilhe credenciais do Discord com o bot, com a equipe do projeto ou com terceiros.
 
 ## 3. Responsabilidade do proprietário e da equipe do servidor
 

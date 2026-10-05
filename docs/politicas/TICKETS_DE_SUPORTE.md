@@ -2,8 +2,8 @@
 
 ## Finalidade
 
-O Ticket de Suporte oferece atendimento privado e um registro final verificável. O sistema atual
-implementa somente o tipo Suporte.
+O Ticket de Suporte oferece atendimento privado. Ele está disponível a partir do Essencial; o
+Ticket de Sorteio, a partir do Premium.
 
 ## Funcionamento
 
@@ -12,9 +12,9 @@ O usuário abre o atendimento por um painel público. O bot cria um tópico priv
 e criar no máximo uma call privada sob demanda. O autor comum não pode finalizar o próprio ticket;
 o atendente, um administrador nativo ou alguém com `TICKET_MANAGE` pode fazê-lo.
 
-Ao finalizar, o bot produz um transcript HTML, envia o arquivo ao canal `TICKET_LOG`, arquiva o tópico
-e libera a exclusão. O encerramento é recusado quando o canal de log não está disponível, evitando a
-perda silenciosa do registro.
+No Premium e Pro, o encerramento produz um relatório HTML enviado ao `TICKET_LOG`; esse canal
+precisa estar disponível. No Essencial, o atendimento pode ser encerrado sem relatório. O tópico
+é arquivado e sua exclusão pode ser liberada.
 
 ## Dados incluídos
 
@@ -24,7 +24,7 @@ um retrato da conversa, não uma cópia permanente mantida pelo banco do bot.
 
 ## Retenção e acesso
 
-O estado operacional encerrado e o resumo diário mínimo expiram do MongoDB após 7 dias. O arquivo
+Os registros temporários do atendimento são mantidos por prazo limitado. O arquivo
 enviado ao Discord permanece sob controle da comunidade e de suas regras de retenção. O tópico e o
 canal de auditoria devem ser visíveis somente às pessoas autorizadas pela configuração do servidor.
 

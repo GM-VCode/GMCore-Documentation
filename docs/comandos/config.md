@@ -14,10 +14,11 @@ Exige uma destas condições:
 
 - ser o dono do servidor;
 - possuir `CONFIG_EDIT` diretamente como usuário;
+- possuir `PROPRIETARIO` como co-dono delegado;
 - integrar a equipe técnica oficial.
 
-`CONFIG_EDIT` não é herdada por cargo. Isso impede que a autoridade de redistribuir permissões seja
-ampliada indiretamente.
+`CONFIG_EDIT` unitária não é concedida por cargo. A delegação ampla `PROPRIETARIO` também permite
+gerenciar a ACL, sempre dentro dos recursos do plano ativo.
 
 ## Funcionamento
 
@@ -32,7 +33,8 @@ O seletor, os botões e a lista paginada ficam integrados ao container do painel
 
 ## Capacidades amplas e unitárias
 
-- `PROPRIETARIO`: herda as opções estruturais declaradas para a central do dono.
+- `PROPRIETARIO`: autoriza as ferramentas do servidor como co-dono, mas não concede acesso global
+  ao GM Core nem libera recursos fora do plano.
 - `MODERATION`: herda as ferramentas declaradas para a central de moderação.
 - `TICKET_MANAGE`: controla exclusivamente o módulo de tickets.
 - Capacidades como `BAN`, `KICK`, `CONSULTA`, `EMBED_MANAGE` e `VIP_MANAGE` concedem somente a

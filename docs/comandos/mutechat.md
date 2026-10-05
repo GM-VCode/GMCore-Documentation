@@ -15,7 +15,7 @@ para minutos, `h` para horas e `d` para dias. O mínimo é `5s` e o máximo é `
 
 O bot aplica o timeout nativo ao membro inteiro. Isso bloqueia sua comunicação em todos os canais
 do servidor, inclusive os criados depois da punição, sem criar sobrescritas individuais. Motivo,
-duração exata e vencimento ficam no MongoDB.
+duração exata e vencimento ficam registrados pelo bot.
 
 O recurso funciona em qualquer servidor, inclusive sem o modo Comunidade. O bot precisa da
 permissão nativa **Moderar membros**, e o cargo dele deve estar acima do cargo do membro atingido.

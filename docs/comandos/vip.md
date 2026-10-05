@@ -30,5 +30,11 @@ própria, tags próprias ou poderes do titular. Seu painel permite apenas encerr
 Expirações são verificadas periodicamente pelo bot e os recursos seguem a política da assinatura
 administrada pelo servidor.
 
+## Primeira-dama
+
+O administrador VIP pode definir o nome de um cargo figurativo em **Configurar PR**. Depois do
+convite aceito, a pessoa recebe esse cargo, não os benefícios da assinatura do titular. O cargo
+não concede call, tag, VIP ou autoridade administrativa.
+
 Os botões e as listas dos painéis administrativo, titular e acompanhante ficam integrados aos
 respectivos containers.

@@ -1,15 +1,17 @@
-# `/ticket suporte`
+# `/ticket`
 
-Configura, publica e administra o primeiro tipo de ticket do GM Core.
+Configura os tickets de suporte e, a partir do Premium, os de sorteio.
 
 ## Uso e acesso
 
 ```text
-/ticket suporte
+/ticket painel: Ticket de Suporte
+/ticket painel: Ticket de Sorteio
 ```
 
-O painel de configuração exige ser dono do servidor, integrar a equipe técnica ou possuir
-`TICKET_MANAGE`. Administrador nativo, sozinho, não abre este comando.
+O suporte exige plano Essencial ou superior; o sorteio, Premium ou Pro. O painel exige ser dono
+do servidor, co-dono com `PROPRIETARIO`, integrar a equipe técnica ou possuir `TICKET_MANAGE`.
+Administrador nativo, sozinho, não recebe esse acesso.
 
 ## Configuração
 
@@ -20,8 +22,7 @@ O painel privado permite definir:
 - título, descrição, cor, imagem, thumbnail e rodapé da apresentação pública;
 - estado ativo ou inativo do atendimento.
 
-Antes de operar, abra `/proprietario painel: Configuração do servidor` e use **Canais de
-auditoria** para garantir o canal `TICKET_LOG`.
+No Premium e Pro, configure `TICKET_LOG` para receber o relatório do atendimento.
 
 ## Fluxo do usuário
 
@@ -30,7 +31,8 @@ auditoria** para garantir o canal `TICKET_LOG`.
 3. Um integrante da equipe usa **Pegar ticket**.
 4. O atendente conversa, adiciona pessoas ou cria uma call privada sob demanda.
 5. O atendente, Administrador nativo ou `TICKET_MANAGE` finaliza.
-6. O transcript HTML é enviado ao `TICKET_LOG`.
+6. No Premium e Pro, um relatório HTML é enviado ao `TICKET_LOG`; no Essencial, o atendimento
+   é encerrado sem esse relatório.
 7. O tópico é arquivado e o botão de exclusão é liberado.
 
 Os controles públicos e privados ficam dentro de containers. Os mesmos identificadores
@@ -43,5 +45,9 @@ persistentes continuam registrados para funcionar depois de reiniciar o bot.
 - A call nasce com limite de duas pessoas e pode ser ajustada pela equipe.
 - O autor comum não pode finalizar o próprio ticket.
 - Participantes de texto, voz ou inclusão manual aparecem no registro.
-- Sem `TICKET_LOG`, o encerramento é recusado para evitar perda do transcript.
-- Estado operacional e resumo diário mínimo expiram do MongoDB após sete dias.
+- Quando o relatório estiver incluído no plano, o canal `TICKET_LOG` deve estar disponível.
+
+## Sorteios
+
+No Premium e Pro, a equipe pode publicar um painel de participação, configurar prazo e canais,
+e consultar o resultado. Cada membro humano participa uma vez por campanha.

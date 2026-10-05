@@ -13,13 +13,12 @@ publicar após confirmação. O GM Core só edita mensagens que ele próprio pub
 
 ## Dados e segurança
 
-Modelos, versões, autor e vínculos de publicação são armazenados por servidor. URLs e limites do
-Discord são validados; menções efetivas ficam desativadas por padrão; componentes não executam código
-ou comandos arbitrários. Operações relevantes seguem para o canal funcional de conteúdo.
+Modelos, versões e publicações pertencem ao servidor. URLs e limites do Discord são validados;
+menções ficam desativadas por padrão. O bot só atualiza publicações que ele próprio criou.
 
 ## Limites
 
-O sistema trabalha com um embed por sessão e publicação, até 25 modelos ativos por servidor e os
-limites de campos e componentes aceitos pelo Discord. As mensagens publicadas continuam como embeds
-clássicos; os containers são usados nos painéis administrativos e não alteram o conteúdo final criado
-pelo usuário.
+O Essencial oferece Embed V1 com limite de 15 modelos salvos e publicados; o Premium oferece V2
+com limite de 25; o Pro inclui V1 e V2 com capacidade ampliada, sujeita a uso responsável.
+Se precisar de mais espaço, contate o suporte. Os formatos e componentes respeitam os limites
+do Discord.
